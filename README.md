@@ -8,14 +8,17 @@ Manager — minimised windows land in the Dock either way.
 
 ## Install
 
-Download `Stash.zip` from the [latest release](../../releases/latest), unzip it, and move
-`Stash.app` to your Applications folder.
+Download the `.dmg` from the [latest release](../../releases/latest), open it, and drag
+**Stash** onto **Applications**. That's it.
+
+(`Stash.zip` in the same release is the identical app — it's what the built-in updater
+downloads.)
 
 Or build it yourself:
 
 ```bash
-./construire.sh
-open Stash.app
+./construire.sh          # builds Stash.app
+./Outils/creer-dmg.sh    # and the installable disk image
 ```
 
 macOS will ask for **Accessibility** permission on first launch (System Settings › Privacy &
