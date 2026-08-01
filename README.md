@@ -11,16 +11,6 @@ Manager — minimised windows land in the Dock either way.
 Download the `.dmg` from the [latest release](../../releases/latest), open it, and drag
 **Stash** onto **Applications**. That's it.
 
-(`Stash.zip` in the same release is the identical app — it's what the built-in updater
-downloads.)
-
-Or build it yourself:
-
-```bash
-./construire.sh          # builds Stash.app
-./Outils/creer-dmg.sh    # and the installable disk image
-```
-
 macOS will ask for **Accessibility** permission on first launch (System Settings › Privacy &
 Security › Accessibility). Stash needs it twice over: to read trackpad gestures, and to act on
 other apps' windows. Nothing works without it.
@@ -35,11 +25,6 @@ Click the menu bar icon › *Réglages…*
 - **Launch at login**.
 - **Updates** — Stash checks GitHub releases once a day and can install a new version itself.
 
-## Gesture conflict
-
-macOS maps three fingers down to **App Exposé** by default, so both will fire. To avoid it:
-System Settings › Trackpad › *More Gestures* → set Mission Control and App Exposé to **four
-fingers**, or turn them off.
 
 ## How it works
 
