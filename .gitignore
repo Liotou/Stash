@@ -1,0 +1,4 @@
+.build/
+Stash.app/
+*.iconset/
+.DS_Store
